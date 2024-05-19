@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    background-color: gold;
+}
+#Central{
+    background-color: gold;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+#Cabeçalho{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: teal;
+    gap: 20px;
+}
+#a1{
+    background-color: turquoise;
+    width: 380px;
+    height: 40px;
+    margin-left: 15px;
+}
+#container_azul{
+    background-color: aqua;
+    width: 710px;
+    height: 40px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+#b1{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+}
+.b1{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+}
+.b2{
+    background-color: white;
+    width: 75px;
+    height: 30px;
+}
+.b3{
+    background-color: white;
+    width: 50px;
+    height: 30px;
+}
+#a2{
+    background-color: turquoise;
+    width: 160px;
+    height: 40px;
+}
+#b_vermelho{
+    background-color: red;
+    width: 900px;
+    height: 400px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#laranja{
+    background-color: orange;
+    width: 900px;
+    height: 60px;
+    margin-bottom: 40px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#b4{
+    background-color: aqua;
+    width: 290px;
+    height: 40px;
+    margin-left: 100px;
+}
+#b5{
+    background-color: aqua;
+    width: 390px;
+    height: 40px;
+}
