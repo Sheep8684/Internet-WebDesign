@@ -1,0 +1,51 @@
+.esquerda_cima{
+    position: absolute;
+    top: 0;
+    background-color: aqua;
+    color: black;
+
+}
+
+.esquerda_baixo{
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    color: white;
+}
+
+.direita_cima{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: blueviolet;
+    color: black;
+}
+
+.direita_baixo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: violet;
+    color: white;
+}
+
+.esquerda_cima:hover{
+    background-color: yellow;
+    transform: scale(1.2);
+}
+
+.esquerda_baixo:hover{
+    background-color: yellowgreen;
+    transform: scale(1.2);
+}
+
+.direita_cima:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+
+.direita_baixo:hover{
+    background-color: darkmagenta;
+    transform: scale(1.2);
+}

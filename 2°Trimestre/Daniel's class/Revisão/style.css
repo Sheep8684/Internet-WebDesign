@@ -1,0 +1,22 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgb(41, 1, 1);
+    padding: 10px;
+    border-radius: 0px 10px 0px 10px ;
+    font-size: 10px;
+    text-align: center;
+}
+.card iframe{
+    width: 100%;
+    border: 1px solid crimson;
+}

@@ -1,0 +1,15 @@
+#Central{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lorem{
+    display: flex;
+    flex-direction: column;
+    width: 1406px;
+}
+
+@media screen and (max-width:770px,0,00){
+
+}
