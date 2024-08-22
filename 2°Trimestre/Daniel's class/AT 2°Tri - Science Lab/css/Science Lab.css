@@ -265,10 +265,14 @@ footer{
 }
 
 .column{
+    display: flex;
+    flex-direction: column;
     position: relative;
     top: 300px;
     gap: 25px;
 }
+
+/*Rodapé*/
 
 #rodapé{
     display: flex;
@@ -299,7 +303,3 @@ footer{
     width: 61px;
     height: 61px;
 }
-
-
-/*Rodapé*/
-
