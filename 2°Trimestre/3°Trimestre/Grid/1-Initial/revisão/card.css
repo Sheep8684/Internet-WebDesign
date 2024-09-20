@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 00;
+}
+
+body{
+    display: grid;
+    grid-template-rows:  250px 250px 250px;
+    grid-column: 2fr 2fr;
+    grid-template-areas: 
+    "cima_esquerda cima_direita"
+    "meio_esquerda meio_direita"
+    "baixo_esquerda baixo_direita";
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.cima_esquerda{
+    grid-area: cima_esquerda;
+}
+
+.cima_direita{
+    grid-area: cima_direita;
+}
+
+.meio_esquerda{
+    grid-area: meio_esquerda;
+}
+
+.meio_direita{
+    grid-area: meio_direita;
+}
+
+.baixo_esquerda{
+    grid-area: baixo_esquerda;
+}
+
+.baixo_direita{
+    grid-area: baixo_direita;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px;
+    gap: 7px;
+    align-items: center;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.imagem img{
+    width: 200px;
+    width: 200px;
+}
+
+#coca img{
+    width: 130px;
+    height: 130px;
+}
+
+.descricao{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: solid 1px;
+    font-size: 20px;
+}

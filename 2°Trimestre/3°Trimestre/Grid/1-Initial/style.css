@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: 
+    "topo topo"
+    "menu banner"
+    "menu conteudo"
+    "rodape rodape";
+}
+
+.topo{
+    grid-area: topo;
+    background-color: #b7b;
+}
+
+.menu{
+    grid-area: menu;
+    background-color: lightpink;
+}
+
+.banner{
+    grid-area: banner;
+    background-color: aqua;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-color: greenyellow;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: #b7b;
+}
