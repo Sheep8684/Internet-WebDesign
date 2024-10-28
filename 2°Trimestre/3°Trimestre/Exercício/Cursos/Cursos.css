@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos na horizontal */
+    justify-content: flex-start;
+    background: #e8f5e9; /* Verde suave */
+    min-height: 100vh; /* Garante que o body tenha altura mínima */
+}
+
+header {
+    width: 100%;
+    background: #388e3c; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cursos-container {
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza a container */
+}
+
+.cursos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    gap: 20px; /* Espaçamento entre os cursos */
+    width: 100%; /* A largura da grade ocupa todo o container */
+    margin-bottom: 20px; /* Espaço abaixo da grade */
+}
+
+.cursos-container h2 {
+    margin-bottom: 10px;
+    color: #388e3c; /* Verde escuro */
+    text-align: center;
+}
+
+.adicionar-curso {
+    background: #4caf50; /* Verde claro */
+    color: #fff;
+    border: none;
+    width: 100px; /* Largura do botão */
+    height: 100px; /* Altura do botão */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Tamanho de fonte menor */
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.adicionar-curso:hover {
+    background: #388e3c; /* Verde escuro */
+}
+
+.curso {
+    display: flex;
+    flex-direction: column;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Para garantir que a imagem não ultrapasse o container */
+    align-items: center; /* Centraliza o conteúdo dos cursos */
+    text-align: center; /* Centraliza o texto dentro dos cursos */
+}
+
+.curso-imagem img {
+    width: 100%;
+    height: 200px; /* Altura fixa para uniformidade */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+.curso-info {
+    padding: 15px;
+}
+
+.curso-info h3 {
+    color: #388e3c; /* Verde escuro */
+    margin-bottom: 10px;
+}
+
+.curso-info p {
+    margin-bottom: 15px;
+}
+
+.curso-info button {
+    padding: 10px;
+    background: #4caf50; /* Verde claro */
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.curso-info button:hover {
+    background: #388e3c; /* Verde escuro */
+}
+
+footer {
+    width: 100%;
+    background: #388e3c; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px; /* Espaço acima do footer */
+}

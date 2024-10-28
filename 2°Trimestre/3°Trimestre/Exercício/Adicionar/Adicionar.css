@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos na horizontal */
+    justify-content: flex-start;
+    background: #e8f5e9; /* Verde suave */
+    min-height: 100vh; /* Garante que o body tenha altura mínima */
+}
+
+header {
+    width: 100%;
+    background: #388e3c; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 0; /* Espaço acima e abaixo da container */
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna para o formulário */
+    gap: 15px; /* Espaçamento entre os elementos do formulário */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos dentro do grupo em coluna */
+}
+
+label {
+    margin-bottom: 8px; /* Espaçamento entre rótulos e campos */
+    color: #388e3c; /* Verde escuro */
+}
+
+input[type="text"],
+input[type="url"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.adicionar-curso {
+    background: #4caf50; /* Verde claro */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.adicionar-curso:hover {
+    background: #388e3c; /* Verde escuro */
+}
+
+.voltar-cursos {
+    display: block; /* Para ocupar uma linha inteira */
+    margin-top: 15px; /* Espaço acima do botão */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px;
+    background: #ff9800; /* Laranja */
+    color: #fff;
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 5px; /* Bordas arredondadas */
+    transition: background 0.3s;
+}
+
+.voltar-cursos:hover {
+    background: #e67e22; /* Laranja escuro */
+}
+
+footer {
+    width: 100%;
+    background: #388e3c; /* Verde escuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px; /* Espaço acima do footer */
+}

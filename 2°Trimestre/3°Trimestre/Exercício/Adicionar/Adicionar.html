@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Novo Curso</title>
+    <link rel="stylesheet" href="Adicionar.css">
+</head>
+<body>
+    <header>
+        <h1>Adicionar Novo Curso</h1>
+    </header>
+
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="titulo">Título do Curso:</label>
+                <input type="text" id="titulo" name="titulo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="descricao">Descrição do Curso:</label>
+                <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="imagem">URL da Imagem:</label>
+                <input type="url" id="imagem" name="imagem" required>
+            </div>
+
+            <button type="submit" class="adicionar-curso">Adicionar Curso</button>
+        </form>
+        <a href="cursos.html" class="voltar-cursos">Voltar para a Área de Cursos</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Cursos de Jardinagem. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
